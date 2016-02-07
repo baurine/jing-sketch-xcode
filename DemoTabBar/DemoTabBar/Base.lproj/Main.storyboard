@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="drd-sb-Yaw">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--我的-->
+        <scene sceneID="cxS-Jz-0UR">
+            <objects>
+                <viewController id="u4z-tI-2HW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KI8-X2-EQK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="my" id="gwR-8U-Khh">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="我的" image="icon03" id="ix4-BT-r6Z"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fPl-nZ-3bA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="212" y="961"/>
+        </scene>
+        <!--创作-->
+        <scene sceneID="3qi-ez-p0J">
+            <objects>
+                <viewController id="oKe-uy-lYd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AJ7-2I-gbQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="create" id="v5D-1J-7VX">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="创作" image="icon02" id="Azh-PJ-swf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1oh-36-RGG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="212" y="316"/>
+        </scene>
+        <!--阅读-->
+        <scene sceneID="K7g-r9-d8Q">
+            <objects>
+                <viewController id="Bfm-HE-Tz4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QEy-ig-b0a">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="read" id="H5S-Bd-gq7">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="阅读" image="icon01" id="mfn-xJ-Wbb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VPg-hh-rza" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="212" y="-313"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="egS-sc-V2T">
+            <objects>
+                <tabBarController id="drd-sb-Yaw" sceneMemberID="viewController">
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="prx-r3-bOy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Bfm-HE-Tz4" kind="relationship" relationship="viewControllers" id="QPk-uS-Kqf"/>
+                        <segue destination="oKe-uy-lYd" kind="relationship" relationship="viewControllers" id="jND-GL-LbJ"/>
+                        <segue destination="u4z-tI-2HW" kind="relationship" relationship="viewControllers" id="4WI-RQ-Mbn"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mSL-yI-zsR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-328" y="2"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="create" width="320" height="568"/>
+        <image name="icon01" width="24" height="24"/>
+        <image name="icon02" width="24" height="24"/>
+        <image name="icon03" width="24" height="24"/>
+        <image name="my" width="320" height="568"/>
+        <image name="read" width="320" height="568"/>
+    </resources>
+</document>
