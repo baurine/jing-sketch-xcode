@@ -1,8 +1,13 @@
-# jing-sketch-xcode
-静电的 &lt;Sketch + Xcode 双剑合璧> 一书及视频的学习笔记及练习
+# Jing Sketch XCode
 
-包括：
+Learn and practice sketch follow 静电's `<Sketch + Xcode 双剑合璧>` video tutorial and book.
 
-1. [笔记](http://note.youdao.com/share/?id=12d7b154d6d46a69cd91b640e1b19515&type=note)
-2. sketch 文件
-3. XCode 工程
+## Note
+
+1. [Jing Sketch XCode Note](./note/jing-sketch-xcode-note.md)
+
+## Samples
+
+![](./note/art/1_panel.png) ![](./note/art/3_safari.png) ![](./note/art/2_track.png) 
+
+![](./note/art/4_inbox.png)
